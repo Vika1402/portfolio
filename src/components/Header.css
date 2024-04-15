@@ -1,0 +1,32 @@
+.nav-div{
+  padding: 50px;
+  background-color: black;
+ color: white;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ height: 100px;
+}
+.logo{
+ 
+}
+.links{
+width: 400px;
+  font-weight: bold;
+ display: flex;
+ flex-direction: row;
+ text-decoration: none;
+ gap: 10%;
+ text-wrap:nowrap;
+
+}
+.contact{
+ padding-right: 40px;
+}
+.decorNone{
+  color: white;
+  text-decoration: none;
+}
+li{
+  text-decoration: none;
+}
