@@ -1,0 +1,58 @@
+.hero{
+ 
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+
+}
+.hero-img{
+  margin-top: 20px;
+  width: 260px;
+  border-radius: 50%;
+}
+.hero-action{
+  font-weight: 500;
+font-size: 22px;
+margin-bottom: 50px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 25px;
+}
+.hero h1{
+  text-align: center;
+  width: 70%;
+  font-size: 50px;
+  font-weight: 600;
+  
+}
+.hero-p{
+  width: 50%;
+  text-align:center;
+  font-size: 24px;
+  line-height: 40px;
+
+ 
+
+}
+.gradientName {
+  background-image: linear-gradient(225deg, #FF3CAC, #784BA0, #2B86C5);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  /* Optionally, you can add additional CSS properties to the span */
+}
+.cwm:hover{
+
+border: 1.5px solid black;
+}
+.mr{
+padding: 5px;
+  border-radius: 50px;
+
+
+}
+.mr:hover{
+  border-color: #FF3CAC;
+}

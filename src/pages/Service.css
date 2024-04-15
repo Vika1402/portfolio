@@ -1,0 +1,44 @@
+.container{
+  height: 90vh;
+  background-color: aquamarine;
+  width: 100%;
+}
+.row1{
+  background-color: blanchedalmond;
+  height: 150px;
+}
+.row2{
+  display: flex;
+  height: 400px;
+}
+.row3{
+  display: flex !important;
+
+  
+}
+.c1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+width: 100%;
+  background-color: red;
+}
+.c2{
+  width: 30%;
+  background-color: blue;
+  
+}
+.c3{
+  width: 70%;
+  background-color: yellow;
+}
+.c4{
+ height: 300px;
+  width: 100%;
+  background-color: burlywood;
+}
+.s-image{
+width: 100%;
+  
+}

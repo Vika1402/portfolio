@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../components/Header";
+import NavBar from "../components/NavBar.js";
 
 import { Helmet } from "react-helmet";
 import { Toaster } from 'react-hot-toast';
@@ -17,7 +17,7 @@ const Layout = ({ children, title, description, keywords, author }) => {
 
         <title>{title}</title>
       </Helmet>
-      <Header />
+      <NavBar />
       <main style={{ minHeight: "77.5vh" }}> <Toaster />{children}</main>
       <Footer />
     </div>

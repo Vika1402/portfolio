@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import Button from 'react-bootstrap/Button';
-import './Header.css'
+import './NavBar.css'
 const Header = () => {
   return (
     <>
@@ -17,7 +17,7 @@ const Header = () => {
   
     </div>
     <div className="contact">
-   <button className='cwm'>Contact With Me</button>
+   <button className='cwmc'>Contact With Me</button>
     </div>
   </div>
       

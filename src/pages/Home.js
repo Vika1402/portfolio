@@ -1,12 +1,14 @@
 import React from 'react'
-import Header from '../components/Header'
-import Main from '../components/Main'
 
+import NavBar from '../components/NavBar.js'
+
+import Hero from "../components/Hero.js"
 const Home = () => {
   return (
     <>
-    <Header></Header>
-    <Main></Main>
+    <NavBar/>
+    <Hero/>
+   
       
     </>
   )
