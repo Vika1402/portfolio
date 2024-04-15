@@ -3,7 +3,7 @@ import NavBar from "../components/NavBar.js";
 
 import { Helmet } from "react-helmet";
 import { Toaster } from 'react-hot-toast';
-import Footer from "../components/Footer";
+import Footer from '../components/Footer.js'
 const Layout = ({ children, title, description, keywords, author }) => {
   return (
     <div>
@@ -19,7 +19,7 @@ const Layout = ({ children, title, description, keywords, author }) => {
       </Helmet>
       <NavBar />
       <main style={{ minHeight: "77.5vh" }}> <Toaster />{children}</main>
-      <Footer />
+      <Footer/>
     </div>
   );
 };
