@@ -1,7 +1,6 @@
 import React from "react";
 import Layout from "../Layout/Layout.js";
 import my_work from "../my_work.js";
-import { FaArrowRight } from "react-icons/fa6";
 import "./MyWork.css";
 const Portfolio = () => {
   return (
@@ -25,7 +24,7 @@ const Portfolio = () => {
         </div>
         <div className="my-work-show-more">
           <p>Show More</p>
-          <p>--></p>
+          <p>---o</p>
         
         </div>
       </div>

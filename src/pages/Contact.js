@@ -4,10 +4,10 @@ import "./Contact.css";
 import { MdMarkEmailRead } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
 import { TbPhoneCall } from "react-icons/tb";
-import Footer from "../components/Footer.js";
+
 
 const Contact = () => {
-  const [result, setResult] = React.useState("");
+  const [ setResult] = React.useState("");
   const onSubmit = async (event) => {
     event.preventDefault();
     setResult("Sending....");
