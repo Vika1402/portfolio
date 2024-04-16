@@ -33,7 +33,7 @@ li{
 .cwmc{
   color: #ffffff;
  padding: 12px;
-  border-radius: 50px;
+  border-radius:25px;
   border: none;
   background-color: #4158D0;
   background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
@@ -42,4 +42,30 @@ li{
 
 .cwm:hover{
   transform: scale(1.05);
+}
+
+@media (max-width :768) {
+  .nav-div{
+    margin: 20px 50px;
+  }
+  .cwmc{
+    color: #ffffff;
+   
+   border-radius: 50%;
+    border: none;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    
+  }
+  .links{
+    width: 200px;
+      font-weight: bold;
+     display: flex;
+     flex-direction: row;
+     text-decoration: none;
+    
+     text-wrap:nowrap;
+     
+    
+    }
 }

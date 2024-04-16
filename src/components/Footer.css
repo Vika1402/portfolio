@@ -71,3 +71,26 @@ transform: scale(1.1);
 .hrh{
   color: white;
 }
+@media (max-width :768){
+  .footer{
+    
+    display: flex;
+   flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+   
+  }
+  .footer-top{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+  }
+  .footer-top-right{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+   
+  }
+}

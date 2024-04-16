@@ -66,3 +66,24 @@
   transform: scale(1.05);
   transition: 0.4s;
 }
+
+@media (max-width :768px){
+
+  .services{
+    display: flex;
+align-items: center;
+justify-content: center;
+
+
+
+   
+   
+  }
+  .services-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 40px;
+    margin-bottom: 80px;
+  }
+
+}
