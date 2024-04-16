@@ -7,7 +7,8 @@ import { TbPhoneCall } from "react-icons/tb";
 
 
 const Contact = () => {
-  const [ setResult] = React.useState("");
+  // eslint-disable-next-line no-unused-vars
+  const [ Result,setResult] = React.useState("");
   const onSubmit = async (event) => {
     event.preventDefault();
     setResult("Sending....");
@@ -48,14 +49,14 @@ const Contact = () => {
             </p>
             <div className="contact-details">
               <div className="contact-detail">
-                <MdMarkEmailRead /> <p>Email Address</p>
+                <MdMarkEmailRead /> <p>vikaskumarsinha1402@gmail.com</p>
               </div>
               <div className="contact-detail">
-                <FaLocationDot /> <p>Address</p>
+                <FaLocationDot /> <p>Raipur</p>
               </div>
               <div className="contact-detail">
                 <TbPhoneCall />
-                <p>Contact Number</p>
+                <p>8223842826</p>
               </div>
             </div>
           </div>
