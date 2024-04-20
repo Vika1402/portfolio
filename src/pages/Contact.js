@@ -15,7 +15,7 @@ const Contact = () => {
     const formData = new FormData(event.target);
 
     formData.append("access_key", "2132cfba-2963-434c-b584-89b07751977a");
-
+//remove 123 fpr msg send 
     const response = await fetch("https://api123.web3forms.com/submit", {
       method: "POST",
       body: formData
